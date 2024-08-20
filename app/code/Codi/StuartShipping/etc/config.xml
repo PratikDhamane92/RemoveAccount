@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <stuart>
+                <active>0</active>
+                <model>Codi\StuartShipping\Model\Carrier\Stuart</model>
+                <title>Stuart Shipping</title>
+                <name>Stuart</name>
+                <mode>sandbox</mode>
+                <sandbox_api_url>https://api.sandbox.stuart.com</sandbox_api_url>
+                <production_api_url>https://api.stuart.com</production_api_url>
+                <sallowspecific>1</sallowspecific>
+                <specificcountry>FR,GB,ES,PL,PT,IT</specificcountry>
+            </stuart>
+        </carriers>
+    </default>
+</config>
